@@ -1,0 +1,11 @@
+/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeFiles/L03.dir
+/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeFiles/install.dir
+/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeFiles/ALL_BUILD.dir
+/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeFiles/ZERO_CHECK.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/uninstall.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/install.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/ALL_BUILD.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/ZERO_CHECK.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/glfw.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/update_mappings.dir
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/install.dir

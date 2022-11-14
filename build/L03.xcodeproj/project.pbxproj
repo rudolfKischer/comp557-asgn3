@@ -1,0 +1,1716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		239E14E6E65347E0838813FF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0B147DBB9E641CABDE87B97 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				72EEE97688E3677710FF51D9 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D806D3230C5F42BE8872DC54 /* PBXTargetDependency */,
+				D60512FB1EBC4E69BB90F25D /* PBXTargetDependency */,
+				62E0EB22B6824D3BB61A5621 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		2B30B8A2DE9C480596525084 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36C2565DCB8C4C279626E015 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				D3EBEF086EC5597A9B36CDCB /* Generate /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/uninstall */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		63CEB5C75145440BBB7D1A74 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77C67F48452E460D9E60C1A4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AA358592CAD4E2BB35B60930 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		890A96CCE22A42AA8EA71EC1 /* update_mappings */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43C7487AD8CF4A1187E04BF6 /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildPhases = (
+				A3D7CF1ED42099ED30BE4E18 /* Generate /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/update_mappings */,
+			);
+			dependencies = (
+				CAB1C6173D6F45649FFDBE01 /* PBXTargetDependency */,
+			);
+			name = update_mappings;
+			productName = update_mappings;
+		};
+		F2BBD9B305E34DD4B1F5914E /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7C4D9D9933A415E8DCBECDC /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6A90DD6D438C4FF2B513AB7B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05AC36C11B414263AFC2C30C /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = D49936E7F8B141E7A59663FA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.h */; };
+		061B997AE410446BB1B3109A /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = F8BDCF2AA47B49B2A5A71D60 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/vulkan.c */; };
+		09978117DAEF44CFAAA538D6 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = DE583793BEB24EA48370C1AD /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/context.c */; };
+		0B1A66917EB6464AAC0B3A9F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.cpp */ = {isa = PBXBuildFile; fileRef = BEC40D9615F849EF80E2425D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.cpp */; };
+		0B28CA345B6D40DAB25E9689 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.h */ = {isa = PBXBuildFile; fileRef = B09B7BE0B327497A8547BFB4 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.h */; };
+		0D23EADE4F63440B8CA6DE4A /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.h */ = {isa = PBXBuildFile; fileRef = 4AD5583D009441F7B802C81D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.h */; };
+		1079F9ABD8854099AF2378E8 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.h */ = {isa = PBXBuildFile; fileRef = 82F94F0130B84501890DC96C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.h */; };
+		119D4811926F4CA287A5EE17 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.h */ = {isa = PBXBuildFile; fileRef = E317FE5D7AC44483A0110816 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.h */; };
+		11AA381721FF46D68F9008A6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.cpp */ = {isa = PBXBuildFile; fileRef = 0D058F0BFE004BE38BD0C480 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.cpp */; };
+		1650F24FE5D14D2CAC6E44E9 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.h */ = {isa = PBXBuildFile; fileRef = 93AF3EA443F54715812AC158 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.h */; };
+		176776BED7D54B809F45A090 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = C4E15BD05FD04FE6A23D054A /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/window.c */; };
+		26D98282D7FE4953B09DD4A8 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.cpp */ = {isa = PBXBuildFile; fileRef = E78FF1FA8BC74CCE8EDAA1C6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.cpp */; };
+		2717862800474BDAB91A7375 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = 9A66DC6A34924716AC5F9E03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_window.c */; };
+		2CA5F2DCF13B4A2495C3C9C8 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 42ACAC494AD7463E8C033E92 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.c */; };
+		3114AF0B37BA415692FA86DA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = 14B81263259F45168A792A30 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.h */; };
+		3F3C90C2F1944EDFB253E951 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 29E3A424C3154AE69B9A173D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_window.m */; };
+		43C7ED2C44734AC2A2C41270 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = D6486F3B14F2487682DBBEE5 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.c */; };
+		441F9E11291D466FB65CF1C9 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 0D426A677B7E4C9C8DFD8742 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/internal.h */; };
+		4A03F31C5A9F4CC3B397491C /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = E8A98EE1008C4FFDA0B6328E /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.c */; };
+		4D696A0C55334BA8B807DA7E /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.h */ = {isa = PBXBuildFile; fileRef = 89DE77DDB8D940E0B2772366 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.h */; };
+		592F28795732442ABBD2FA03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = BA78657C623C4F2083FD9D63 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/init.c */; };
+		61C9313B688B4898B58CA2BE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.h */ = {isa = PBXBuildFile; fileRef = 599218955A0B48C4A37A5CFE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.h */; };
+		684246C2B2FC4215AC19B837 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 7F3E7AC602CC4E9981905A2F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/input.c */; };
+		695C36B55A6341BD9D42B46C /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = D44CD648F6D84EE389EDBA49 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.h */; };
+		6CA774E8802F463991274B71 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 1405881A2418423AA9D8146E /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.h */; };
+		6D2B5E1986884B2285CCB701 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.h */ = {isa = PBXBuildFile; fileRef = ABD59A54D8904949A6C16848 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.h */; };
+		7C08FB18E41D467E94C5BE26 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = A50929397ADE443481F65488 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3native.h */; };
+		7C34414A3A4C4E1EB8BC35EB /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = E37BB0FC2FBA4B5C86259E83 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_module.c */; };
+		8376D49A83FF4FF0A6D99F56 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 5DD1DC114C8A471A8B2869AA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_platform.h */; };
+		8382AAC288A1427094C6B34C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5D3DC7696830452D87752324 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/CMakeLists.txt */; };
+		8690F430F1B942EBBE9F761C /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = A12E76E0ECA9481BBA6F139D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.m */; };
+		91CC6BB1C31A499FBEBD1BBF /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 80C18372D6814A5A9C08C486 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.c */; };
+		926D8B2520444F3E98236BEB /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.cpp */ = {isa = PBXBuildFile; fileRef = 20BD8E169A184946BDF9D542 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.cpp */; };
+		9415AFFC339D4712B7C803C2 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.h */ = {isa = PBXBuildFile; fileRef = 1EB8B85001BC4904AEDC5BDE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.h */; };
+		94D8D755B01144DB880FB059 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.cpp */ = {isa = PBXBuildFile; fileRef = 109587901F5E496DB79497D8 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.cpp */; };
+		996ACE50A6EB4A00B7E39CFF /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 90EFB2E886FD4B4A9AA323A1 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_monitor.m */; };
+		9CCF7FB188A94908856217FA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 4DF7390FEB9045E0A159EF91 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_init.m */; };
+		9E13A2A3365645C0893A5ECA /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.cpp */ = {isa = PBXBuildFile; fileRef = CE9DB554704944FA85C02303 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.cpp */; };
+		A85264ED2F324F8787CB18F0 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_frag.glsl */ = {isa = PBXBuildFile; fileRef = AD8C40B0C75549AAA21D6ADC /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_frag.glsl */; };
+		A916779441CD49A0A85FF996 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.cpp */ = {isa = PBXBuildFile; fileRef = 75C6706F305C4AE19039EF6F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.cpp */; };
+		A94D0C41D2DA4297B3D5EF6D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_vert.glsl */ = {isa = PBXBuildFile; fileRef = 72714E96662C4BA18E1BA1DF /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_vert.glsl */; };
+		BB16A94007234F14BBFAB218 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.h */ = {isa = PBXBuildFile; fileRef = D417C67BC4574538864B12E1 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.h */; };
+		BC7E5C80196842A2884AF13F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F72CDE1EC9F74B61B0B79C68 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt */; };
+		CD8D92FA2DE44225AB212CF7 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_vert.glsl */ = {isa = PBXBuildFile; fileRef = 9EB6BB209D304F65855AE08C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_vert.glsl */; };
+		D29A267E5CA344058F4445CA /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/main.cpp */ = {isa = PBXBuildFile; fileRef = EF67C12A04274CD8B8261439 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/main.cpp */; };
+		D3E46C590F164E5CB531A607 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.cpp */ = {isa = PBXBuildFile; fileRef = 14FFA57C2FCB4621B10EF86D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.cpp */; };
+		D59A87ABEBAB4A09B5CA2457 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = B78033D4C0C4491DBB5F92E7 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_platform.h */; };
+		D677C87BF707475FB0D9173B /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 33B235E6E37148D49ED77B63 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_monitor.c */; };
+		D99D980F15E04A39849B0D70 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_frag.glsl */ = {isa = PBXBuildFile; fileRef = 852194668E164300B73738E9 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_frag.glsl */; };
+		DC042B9C8C4D4020911BC470 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLHeaders.h */ = {isa = PBXBuildFile; fileRef = E8CEF1E31FD74EF19DB341A0 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLHeaders.h */; };
+		DC6463F467C844C39A6FE1E1 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 0CC182C08070430896AA6BE0 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.h */; };
+		DECB93D395DF4046B4449B0F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_vert.glsl */ = {isa = PBXBuildFile; fileRef = 6C7FABC4A9794D9888984978 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_vert.glsl */; };
+		E07F1938DF9C4494AE4E0541 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 5C12344AF9A84D4EA3391CA7 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_init.c */; };
+		E2D0C8604EDA4D589E1ABD77 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 64D5EEBDBD8342898509DC9F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/nsgl_context.m */; };
+		E4FB701CE1F14CFC9DF8D4FF /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.cpp */ = {isa = PBXBuildFile; fileRef = F2E9E63E1BDE4F90BC7EA282 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.cpp */; };
+		EBC46E9608694FA0A19F6099 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = ED1509712F764CB98ECD40C5 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/osmesa_context.c */; };
+		EDAA7A0D90244B6D8C0D3D30 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.h */ = {isa = PBXBuildFile; fileRef = 9EEF25FFC6824D7394EAAF1A /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.h */; };
+		F2FC45D3AA1C4FE59D001D60 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.cpp */ = {isa = PBXBuildFile; fileRef = 763934F52A5A4271BCAA34E5 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.cpp */; };
+		F63E4815BA654B6984F95C7B /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = E560EDC582CB4340A3954C03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3.h */; };
+		F9CA0E52CB6545EFBE845AC8 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 65AB28B53C384474B0534BEA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/monitor.c */; };
+		FBDE43C89FD4403FABCBF35B /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_frag.glsl */ = {isa = PBXBuildFile; fileRef = A8B44C57DF9A48359A6B7F6D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_frag.glsl */; };
+		FC1D5867C4F042BAB35CEB5D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = B8246FA481824511B513B02D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/egl_context.c */; };
+		FE9514FEC67E4705BA38FED3 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.cpp */ = {isa = PBXBuildFile; fileRef = 0B96B2742860483F93A3059F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.cpp */; };
+		FE99122E04984C0087359D84 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 5F7EF75EBA9D4042981A0F33 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		276EC5D4DC9C45F29784CD38 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		41E24DCB6C67433DB53A6A2F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		443EB9BC9A4E4478986A4CBD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		87C6B60C0D2046E98DAB6702 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		217C477FA20041C29276D217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CEB5C75145440BBB7D1A74;
+			remoteInfo = ZERO_CHECK;
+		};
+		34DBCE674806485BAF23DB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239E14E6E65347E0838813FF;
+			remoteInfo = ALL_BUILD;
+		};
+		486134D2B60D4A9496C4E320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA5684C7E87461E99A936D5;
+			remoteInfo = glfw;
+		};
+		62874E108FAB4506A4178345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA5684C7E87461E99A936D5;
+			remoteInfo = glfw;
+		};
+		658B56E33E0948FD92026748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF950EB22874DF290139E4D;
+			remoteInfo = L03;
+		};
+		CEAD11BCD76643B3B24DE6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CEB5C75145440BBB7D1A74;
+			remoteInfo = ZERO_CHECK;
+		};
+		E3838DF4B0A04E798258006E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CEB5C75145440BBB7D1A74;
+			remoteInfo = ZERO_CHECK;
+		};
+		F0BAC88A1F63493197D19670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CEB5C75145440BBB7D1A74;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B96B2742860483F93A3059F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HEDS.cpp; path = src/HEDS.cpp; sourceTree = SOURCE_ROOT; };
+		0CC182C08070430896AA6BE0 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.h; sourceTree = "<absolute>"; };
+		0D058F0BFE004BE38BD0C480 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PolygonSoup.cpp; path = src/PolygonSoup.cpp; sourceTree = SOURCE_ROOT; };
+		0D426A677B7E4C9C8DFD8742 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/internal.h; sourceTree = "<absolute>"; };
+		109587901F5E496DB79497D8 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSL.cpp; path = src/GLSL.cpp; sourceTree = SOURCE_ROOT; };
+		1405881A2418423AA9D8146E /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.h; sourceTree = "<absolute>"; };
+		14B81263259F45168A792A30 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.h; sourceTree = "<absolute>"; };
+		14FFA57C2FCB4621B10EF86D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HalfEdge.cpp; path = src/HalfEdge.cpp; sourceTree = SOURCE_ROOT; };
+		1EB8B85001BC4904AEDC5BDE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatrixStack.h; path = src/MatrixStack.h; sourceTree = SOURCE_ROOT; };
+		20BD8E169A184946BDF9D542 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MatrixStack.cpp; path = src/MatrixStack.cpp; sourceTree = SOURCE_ROOT; };
+		22FCE490F92D415E8A0E2F8F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h.in; sourceTree = "<absolute>"; };
+		29E3A424C3154AE69B9A173D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_window.m; sourceTree = "<absolute>"; };
+		33B235E6E37148D49ED77B63 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_monitor.c; sourceTree = "<absolute>"; };
+		42ACAC494AD7463E8C033E92 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.c; sourceTree = "<absolute>"; };
+		4AD5583D009441F7B802C81D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MeshDrawPicking.h; path = src/MeshDrawPicking.h; sourceTree = SOURCE_ROOT; };
+		4DF7390FEB9045E0A159EF91 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_init.m; sourceTree = "<absolute>"; };
+		572D55319CE04C218654927F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMakeLists.txt; sourceTree = "<absolute>"; };
+		599218955A0B48C4A37A5CFE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MeshDrawHeatGeo.h; path = src/MeshDrawHeatGeo.h; sourceTree = SOURCE_ROOT; };
+		5C12344AF9A84D4EA3391CA7 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_init.c; sourceTree = "<absolute>"; };
+		5D3DC7696830452D87752324 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5DD1DC114C8A471A8B2869AA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_platform.h; sourceTree = "<absolute>"; };
+		5F7EF75EBA9D4042981A0F33 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h; sourceTree = "<absolute>"; };
+		64D5EEBDBD8342898509DC9F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/nsgl_context.m; sourceTree = "<absolute>"; };
+		65AB28B53C384474B0534BEA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/monitor.c; sourceTree = "<absolute>"; };
+		6B8CA0DE7E4A4CA481DDE042 /* L03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = L03; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7FABC4A9794D9888984978 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = col_vert.glsl; path = resources/col_vert.glsl; sourceTree = SOURCE_ROOT; };
+		72714E96662C4BA18E1BA1DF /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = heat_vert.glsl; path = resources/heat_vert.glsl; sourceTree = SOURCE_ROOT; };
+		75C6706F305C4AE19039EF6F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vertex.cpp; path = src/Vertex.cpp; sourceTree = SOURCE_ROOT; };
+		763934F52A5A4271BCAA34E5 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MeshDrawPicking.cpp; path = src/MeshDrawPicking.cpp; sourceTree = SOURCE_ROOT; };
+		7F3E7AC602CC4E9981905A2F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/input.c; sourceTree = "<absolute>"; };
+		80C18372D6814A5A9C08C486 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.c; sourceTree = "<absolute>"; };
+		82F94F0130B84501890DC96C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Face.h; path = src/Face.h; sourceTree = SOURCE_ROOT; };
+		852194668E164300B73738E9 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = heat_frag.glsl; path = resources/heat_frag.glsl; sourceTree = SOURCE_ROOT; };
+		89DE77DDB8D940E0B2772366 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PolygonSoup.h; path = src/PolygonSoup.h; sourceTree = SOURCE_ROOT; };
+		90EFB2E886FD4B4A9AA323A1 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_monitor.m; sourceTree = "<absolute>"; };
+		93AF3EA443F54715812AC158 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ArcBall.h; path = src/ArcBall.h; sourceTree = SOURCE_ROOT; };
+		9A66DC6A34924716AC5F9E03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_window.c; sourceTree = "<absolute>"; };
+		9EB6BB209D304F65855AE08C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pick_vert.glsl; path = resources/pick_vert.glsl; sourceTree = SOURCE_ROOT; };
+		9EEF25FFC6824D7394EAAF1A /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HEDS.h; path = src/HEDS.h; sourceTree = SOURCE_ROOT; };
+		A12E76E0ECA9481BBA6F139D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.m; sourceTree = "<absolute>"; };
+		A50929397ADE443481F65488 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3native.h; sourceTree = "<absolute>"; };
+		A8B44C57DF9A48359A6B7F6D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = col_frag.glsl; path = resources/col_frag.glsl; sourceTree = SOURCE_ROOT; };
+		ABD59A54D8904949A6C16848 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HalfEdge.h; path = src/HalfEdge.h; sourceTree = SOURCE_ROOT; };
+		AD8C40B0C75549AAA21D6ADC /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pick_frag.glsl; path = resources/pick_frag.glsl; sourceTree = SOURCE_ROOT; };
+		B027E49B0A8F4248B71ED7E6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B09B7BE0B327497A8547BFB4 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSL.h; path = src/GLSL.h; sourceTree = SOURCE_ROOT; };
+		B78033D4C0C4491DBB5F92E7 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_platform.h; sourceTree = "<absolute>"; };
+		B8246FA481824511B513B02D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/egl_context.c; sourceTree = "<absolute>"; };
+		BA78657C623C4F2083FD9D63 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/init.c; sourceTree = "<absolute>"; };
+		BEC40D9615F849EF80E2425D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = src/Program.cpp; sourceTree = SOURCE_ROOT; };
+		BFA02C41C6CB454A806FB145 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27B69CE9FCA43E0BB1A7F62 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake; sourceTree = "<absolute>"; };
+		C4E15BD05FD04FE6A23D054A /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/window.c; sourceTree = "<absolute>"; };
+		CE9DB554704944FA85C02303 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ArcBall.cpp; path = src/ArcBall.cpp; sourceTree = SOURCE_ROOT; };
+		D417C67BC4574538864B12E1 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = src/Program.h; sourceTree = SOURCE_ROOT; };
+		D44CD648F6D84EE389EDBA49 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.h; sourceTree = "<absolute>"; };
+		D49936E7F8B141E7A59663FA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.h; sourceTree = "<absolute>"; };
+		D647DAA12E03482EBF3DCE20 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt; sourceTree = "<absolute>"; };
+		D6486F3B14F2487682DBBEE5 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.c; sourceTree = "<absolute>"; };
+		DE583793BEB24EA48370C1AD /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/context.c; sourceTree = "<absolute>"; };
+		E317FE5D7AC44483A0110816 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vertex.h; path = src/Vertex.h; sourceTree = SOURCE_ROOT; };
+		E37BB0FC2FBA4B5C86259E83 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_module.c; sourceTree = "<absolute>"; };
+		E560EDC582CB4340A3954C03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3.h; sourceTree = "<absolute>"; };
+		E78FF1FA8BC74CCE8EDAA1C6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Face.cpp; path = src/Face.cpp; sourceTree = SOURCE_ROOT; };
+		E8A98EE1008C4FFDA0B6328E /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.c; sourceTree = "<absolute>"; };
+		E8CEF1E31FD74EF19DB341A0 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLHeaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLHeaders.h; path = src/GLHeaders.h; sourceTree = SOURCE_ROOT; };
+		ED1509712F764CB98ECD40C5 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/osmesa_context.c; sourceTree = "<absolute>"; };
+		EF67C12A04274CD8B8261439 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		F2E9E63E1BDE4F90BC7EA282 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MeshDrawHeatGeo.cpp; path = src/MeshDrawHeatGeo.cpp; sourceTree = SOURCE_ROOT; };
+		F72CDE1EC9F74B61B0B79C68 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt; sourceTree = "<absolute>"; };
+		F8BDCF2AA47B49B2A5A71D60 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/vulkan.c; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0180C6EBFE6E4C18BA9C40FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3771C97EF84622A8D1528D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259CCE9DBF248BF88AC2DFA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		16206855BC954242852CC8E1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E560EDC582CB4340A3954C03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3.h */,
+				A50929397ADE443481F65488 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include/GLFW/glfw3native.h */,
+				0CC182C08070430896AA6BE0 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.h */,
+				5DD1DC114C8A471A8B2869AA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_platform.h */,
+				14B81263259F45168A792A30 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.h */,
+				0D426A677B7E4C9C8DFD8742 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/internal.h */,
+				5F7EF75EBA9D4042981A0F33 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h */,
+				D49936E7F8B141E7A59663FA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.h */,
+				B78033D4C0C4491DBB5F92E7 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_platform.h */,
+				D44CD648F6D84EE389EDBA49 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.h */,
+				1405881A2418423AA9D8146E /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		208D93234B494D9FBD771626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27A05939C55F4833A7988B1C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF7390FEB9045E0A159EF91 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_init.m */,
+				A12E76E0ECA9481BBA6F139D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.m */,
+				90EFB2E886FD4B4A9AA323A1 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_monitor.m */,
+				E8A98EE1008C4FFDA0B6328E /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.c */,
+				29E3A424C3154AE69B9A173D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_window.m */,
+				DE583793BEB24EA48370C1AD /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/context.c */,
+				B8246FA481824511B513B02D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/egl_context.c */,
+				BA78657C623C4F2083FD9D63 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/init.c */,
+				7F3E7AC602CC4E9981905A2F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/input.c */,
+				65AB28B53C384474B0534BEA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/monitor.c */,
+				64D5EEBDBD8342898509DC9F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/nsgl_context.m */,
+				5C12344AF9A84D4EA3391CA7 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_init.c */,
+				D6486F3B14F2487682DBBEE5 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.c */,
+				33B235E6E37148D49ED77B63 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_monitor.c */,
+				9A66DC6A34924716AC5F9E03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_window.c */,
+				ED1509712F764CB98ECD40C5 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/osmesa_context.c */,
+				42ACAC494AD7463E8C033E92 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.c */,
+				E37BB0FC2FBA4B5C86259E83 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_module.c */,
+				80C18372D6814A5A9C08C486 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.c */,
+				F8BDCF2AA47B49B2A5A71D60 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/vulkan.c */,
+				C4E15BD05FD04FE6A23D054A /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2E0737FB1D694771BF7CC4B8 = {
+			isa = PBXGroup;
+			children = (
+				93A4796E64074A1F8E8E9CCB /* L03 */,
+				F7112740F4554C6A91E730F3 /* ALL_BUILD */,
+				84FEE9443BCF438B89364F3D /* GLFW3 */,
+				BA154471723542029809D164 /* Products */,
+				208D93234B494D9FBD771626 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		559A0CA8B2154803837B8BC1 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				0259CCE9DBF248BF88AC2DFA /* CMake Rules */,
+				572D55319CE04C218654927F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		6BA8056B2DF54B549A3F5ADB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DB554704944FA85C02303 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.cpp */,
+				E78FF1FA8BC74CCE8EDAA1C6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.cpp */,
+				109587901F5E496DB79497D8 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.cpp */,
+				0B96B2742860483F93A3059F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.cpp */,
+				14FFA57C2FCB4621B10EF86D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.cpp */,
+				20BD8E169A184946BDF9D542 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.cpp */,
+				F2E9E63E1BDE4F90BC7EA282 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.cpp */,
+				763934F52A5A4271BCAA34E5 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.cpp */,
+				0D058F0BFE004BE38BD0C480 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.cpp */,
+				BEC40D9615F849EF80E2425D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.cpp */,
+				75C6706F305C4AE19039EF6F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.cpp */,
+				EF67C12A04274CD8B8261439 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		71480FD6AAE74836BBA95C21 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7858F06628E14530824DBAC2 /* update_mappings */ = {
+			isa = PBXGroup;
+			children = (
+				B9651950011245848A8C94DC /* Header Files */,
+				71480FD6AAE74836BBA95C21 /* CMake Rules */,
+				C27B69CE9FCA43E0BB1A7F62 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake */,
+				D647DAA12E03482EBF3DCE20 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt */,
+			);
+			name = update_mappings;
+			sourceTree = "<group>";
+		};
+		80C2D26A1B404942AAD848A9 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				16206855BC954242852CC8E1 /* Header Files */,
+				27A05939C55F4833A7988B1C /* Source Files */,
+				F72CDE1EC9F74B61B0B79C68 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		84A1179E0E874515BDB31274 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		84FEE9443BCF438B89364F3D /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				559A0CA8B2154803837B8BC1 /* uninstall */,
+				80C2D26A1B404942AAD848A9 /* glfw */,
+				7858F06628E14530824DBAC2 /* update_mappings */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		93A4796E64074A1F8E8E9CCB /* L03 */ = {
+			isa = PBXGroup;
+			children = (
+				6BA8056B2DF54B549A3F5ADB /* Source Files */,
+				A880C47339A84316BB7B1697 /* Header Files */,
+				5D3DC7696830452D87752324 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/CMakeLists.txt */,
+				A8B44C57DF9A48359A6B7F6D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_frag.glsl */,
+				6C7FABC4A9794D9888984978 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/col_vert.glsl */,
+				852194668E164300B73738E9 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_frag.glsl */,
+				72714E96662C4BA18E1BA1DF /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/heat_vert.glsl */,
+				AD8C40B0C75549AAA21D6ADC /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_frag.glsl */,
+				9EB6BB209D304F65855AE08C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/resources/pick_vert.glsl */,
+			);
+			name = L03;
+			sourceTree = "<group>";
+		};
+		A880C47339A84316BB7B1697 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AF3EA443F54715812AC158 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.h */,
+				82F94F0130B84501890DC96C /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.h */,
+				E8CEF1E31FD74EF19DB341A0 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLHeaders.h */,
+				B09B7BE0B327497A8547BFB4 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.h */,
+				9EEF25FFC6824D7394EAAF1A /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.h */,
+				ABD59A54D8904949A6C16848 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.h */,
+				1EB8B85001BC4904AEDC5BDE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.h */,
+				599218955A0B48C4A37A5CFE /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.h */,
+				4AD5583D009441F7B802C81D /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.h */,
+				89DE77DDB8D940E0B2772366 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.h */,
+				D417C67BC4574538864B12E1 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.h */,
+				E317FE5D7AC44483A0110816 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B9651950011245848A8C94DC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FCE490F92D415E8A0E2F8F /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BA154471723542029809D164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8CA0DE7E4A4CA481DDE042 /* L03 */,
+				BFA02C41C6CB454A806FB145 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7112740F4554C6A91E730F3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				84A1179E0E874515BDB31274 /* CMake Rules */,
+				B027E49B0A8F4248B71ED7E6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF950EB22874DF290139E4D /* L03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B72A7130D9406684CAB09C /* Build configuration list for PBXNativeTarget "L03" */;
+			buildPhases = (
+				D1E6003570BF4AF5B5AAD795 /* Sources */,
+				0180C6EBFE6E4C18BA9C40FF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B437319BA04B04BD221529 /* PBXTargetDependency */,
+				F76FB2E5959B49C494DB06BA /* PBXTargetDependency */,
+			);
+			name = L03;
+			productName = L03;
+			productReference = 6B8CA0DE7E4A4CA481DDE042 /* L03 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BAA5684C7E87461E99A936D5 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F81842626C47A5BD0B6900 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				DE371CFE75CA4D8EB82B2AF7 /* Sources */,
+				5E3771C97EF84622A8D1528D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7812D09008489D9D938034 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = BFA02C41C6CB454A806FB145 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2EB6E7F6BA481981C36CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = D4A0F0E450924EF1AEFEF889 /* Build configuration list for PBXProject "L03" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				276EC5D4DC9C45F29784CD38 /* Debug */,
+				41E24DCB6C67433DB53A6A2F /* Release */,
+				443EB9BC9A4E4478986A4CBD /* MinSizeRel */,
+				87C6B60C0D2046E98DAB6702 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2E0737FB1D694771BF7CC4B8;
+			projectDirPath = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3";
+			projectRoot = "";
+			targets = (
+				239E14E6E65347E0838813FF /* ALL_BUILD */,
+				0AF950EB22874DF290139E4D /* L03 */,
+				63CEB5C75145440BBB7D1A74 /* ZERO_CHECK */,
+				BAA5684C7E87461E99A936D5 /* glfw */,
+				F2BBD9B305E34DD4B1F5914E /* install */,
+				2B30B8A2DE9C480596525084 /* uninstall */,
+				890A96CCE22A42AA8EA71EC1 /* update_mappings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		72EEE97688E3677710FF51D9 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A3D7CF1ED42099ED30BE4E18 /* Generate /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/update_mappings */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/update_mappings";
+			outputPaths = (
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/CMakeFiles/update_mappings			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		AA358592CAD4E2BB35B60930 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  make -f /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  make -f /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  make -f /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build
+  make -f /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D3EBEF086EC5597A9B36CDCB /* Generate /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/uninstall";
+			outputPaths = (
+/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/CMakeFiles/uninstall			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug
+  /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -P /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF220574C043FA76D2683574 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E6003570BF4AF5B5AAD795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13A2A3365645C0893A5ECA /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/ArcBall.cpp */,
+				26D98282D7FE4953B09DD4A8 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Face.cpp */,
+				94D8D755B01144DB880FB059 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/GLSL.cpp */,
+				FE9514FEC67E4705BA38FED3 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HEDS.cpp */,
+				D3E46C590F164E5CB531A607 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/HalfEdge.cpp */,
+				926D8B2520444F3E98236BEB /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MatrixStack.cpp */,
+				E4FB701CE1F14CFC9DF8D4FF /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawHeatGeo.cpp */,
+				F2FC45D3AA1C4FE59D001D60 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/MeshDrawPicking.cpp */,
+				11AA381721FF46D68F9008A6 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/PolygonSoup.cpp */,
+				0B1A66917EB6464AAC0B3A9F /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Program.cpp */,
+				A916779441CD49A0A85FF996 /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/Vertex.cpp */,
+				D29A267E5CA344058F4445CA /* /Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE371CFE75CA4D8EB82B2AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCF7FB188A94908856217FA /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_init.m */,
+				8690F430F1B942EBBE9F761C /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_joystick.m */,
+				996ACE50A6EB4A00B7E39CFF /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_monitor.m */,
+				4A03F31C5A9F4CC3B397491C /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_time.c */,
+				3F3C90C2F1944EDFB253E951 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/cocoa_window.m */,
+				09978117DAEF44CFAAA538D6 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/context.c */,
+				FC1D5867C4F042BAB35CEB5D /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/egl_context.c */,
+				592F28795732442ABBD2FA03 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/init.c */,
+				684246C2B2FC4215AC19B837 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/input.c */,
+				F9CA0E52CB6545EFBE845AC8 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/monitor.c */,
+				E2D0C8604EDA4D589E1ABD77 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/nsgl_context.m */,
+				E07F1938DF9C4494AE4E0541 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_init.c */,
+				43C7ED2C44734AC2A2C41270 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_joystick.c */,
+				D677C87BF707475FB0D9173B /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_monitor.c */,
+				2717862800474BDAB91A7375 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/null_window.c */,
+				EBC46E9608694FA0A19F6099 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/osmesa_context.c */,
+				2CA5F2DCF13B4A2495C3C9C8 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/platform.c */,
+				7C34414A3A4C4E1EB8BC35EB /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_module.c */,
+				91CC6BB1C31A499FBEBD1BBF /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/posix_thread.c */,
+				061B997AE410446BB1B3109A /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/vulkan.c */,
+				176776BED7D54B809F45A090 /* /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E0EB22B6824D3BB61A5621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CEB5C75145440BBB7D1A74 /* ZERO_CHECK */;
+			targetProxy = CEAD11BCD76643B3B24DE6D1 /* PBXContainerItemProxy */;
+		};
+		6A90DD6D438C4FF2B513AB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239E14E6E65347E0838813FF /* ALL_BUILD */;
+			targetProxy = 34DBCE674806485BAF23DB7E /* PBXContainerItemProxy */;
+		};
+		88B437319BA04B04BD221529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA5684C7E87461E99A936D5 /* glfw */;
+			targetProxy = 486134D2B60D4A9496C4E320 /* PBXContainerItemProxy */;
+		};
+		BB7812D09008489D9D938034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CEB5C75145440BBB7D1A74 /* ZERO_CHECK */;
+			targetProxy = E3838DF4B0A04E798258006E /* PBXContainerItemProxy */;
+		};
+		CAB1C6173D6F45649FFDBE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CEB5C75145440BBB7D1A74 /* ZERO_CHECK */;
+			targetProxy = F0BAC88A1F63493197D19670 /* PBXContainerItemProxy */;
+		};
+		D60512FB1EBC4E69BB90F25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA5684C7E87461E99A936D5 /* glfw */;
+			targetProxy = 62874E108FAB4506A4178345 /* PBXContainerItemProxy */;
+		};
+		D806D3230C5F42BE8872DC54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF950EB22874DF290139E4D /* L03 */;
+			targetProxy = 658B56E33E0948FD92026748 /* PBXContainerItemProxy */;
+		};
+		F76FB2E5959B49C494DB06BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CEB5C75145440BBB7D1A74 /* ZERO_CHECK */;
+			targetProxy = 217C477FA20041C29276D217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E33F75685147E395A34135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -pedantic     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/Release/libglfw3.a,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/lib/libGLEW.a","-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = L03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		07DAF4110DB046DBB4B7B0A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		082AB5E213C84E6F85D1CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0929098DA5594A8381C2BB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0FD2627916934576B5428DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0FFA2C0FF6BE4509BD41E703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		11DDA2D03CCE4C919B2E2607 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		125A0D94DC6A4CC48D77C734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20DB519307B14AF29D481C4D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		25AF6A4575CE4CA3A12C3563 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		56EBCD2AF7544333A1EBBBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5789BF76424D4E098AE5C8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -pedantic    '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/Debug/libglfw3.a,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/lib/libGLEW.a","-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = L03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		58C5E2AE74E5444EA6D1CB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5963B2CEAF1841068609CB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/build";
+			};
+			name = Release;
+		};
+		5967E8BC9A184069806EF828 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/build";
+			};
+			name = MinSizeRel;
+		};
+		61C69F3480614688A3404F52 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		687470B9F5FE4E7ABFAF123B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6AFCD0F86FD349548E221233 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B8AA3C8268B4B20AF3846F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		93AB895B09C34367AB88F622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9942DDFCA5AB49DC9965D76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A6D50CB46F1B4D5682EA6772 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB4B1DF6863645479E611BED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CE249C23C21C48F4ACC68D51 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D3070A81D38B4F80889D07FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/src,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D93B48089ACB49BBBCBD480D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E0BFD611D65F4F1BA76D0C35 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E6ABE27FBF3D4B588C927A09 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -pedantic        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/RelWithDebInfo/libglfw3.a,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/lib/libGLEW.a","-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = L03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E716C54D5DA040BA8864560E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F28958D29623440CB862F165 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/rudolfkischer/MCGILL/COMP557/Workspace/glm,/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/include,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -pedantic     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src/MinSizeRel/libglfw3.a,"/Users/rudolfkischer/MCGILL/COMP557/Workspace/glew-2.1.0/lib/libGLEW.a","-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = L03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F4311E92590E47F688FEB3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/rudolfkischer/MCGILL/COMP557/Projects/COMP557-asgn3/comp557-asgn3/build/build";
+			};
+			name = Debug;
+		};
+		FE4C9877C1ED4E83862045D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/rudolfkischer/MCGILL/COMP557/Workspace/glfw/debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F81842626C47A5BD0B6900 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5E2AE74E5444EA6D1CB4D /* Debug */,
+				D3070A81D38B4F80889D07FF /* Release */,
+				07DAF4110DB046DBB4B7B0A9 /* MinSizeRel */,
+				6AFCD0F86FD349548E221233 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36C2565DCB8C4C279626E015 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125A0D94DC6A4CC48D77C734 /* Debug */,
+				0FFA2C0FF6BE4509BD41E703 /* Release */,
+				AB4B1DF6863645479E611BED /* MinSizeRel */,
+				687470B9F5FE4E7ABFAF123B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43C7487AD8CF4A1187E04BF6 /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0929098DA5594A8381C2BB37 /* Debug */,
+				FE4C9877C1ED4E83862045D9 /* Release */,
+				7B8AA3C8268B4B20AF3846F8 /* MinSizeRel */,
+				A6D50CB46F1B4D5682EA6772 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61B72A7130D9406684CAB09C /* Build configuration list for PBXNativeTarget "L03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5789BF76424D4E098AE5C8F0 /* Debug */,
+				01E33F75685147E395A34135 /* Release */,
+				F28958D29623440CB862F165 /* MinSizeRel */,
+				E6ABE27FBF3D4B588C927A09 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77C67F48452E460D9E60C1A4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AB5E213C84E6F85D1CEED /* Debug */,
+				9942DDFCA5AB49DC9965D76B /* Release */,
+				CE249C23C21C48F4ACC68D51 /* MinSizeRel */,
+				25AF6A4575CE4CA3A12C3563 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4A0F0E450924EF1AEFEF889 /* Build configuration list for PBXProject "L03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4311E92590E47F688FEB3F9 /* Debug */,
+				5963B2CEAF1841068609CB99 /* Release */,
+				5967E8BC9A184069806EF828 /* MinSizeRel */,
+				E0BFD611D65F4F1BA76D0C35 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7C4D9D9933A415E8DCBECDC /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E716C54D5DA040BA8864560E /* Debug */,
+				56EBCD2AF7544333A1EBBBD0 /* Release */,
+				20DB519307B14AF29D481C4D /* MinSizeRel */,
+				D93B48089ACB49BBBCBD480D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0B147DBB9E641CABDE87B97 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD2627916934576B5428DE6 /* Debug */,
+				93AB895B09C34367AB88F622 /* Release */,
+				61C69F3480614688A3404F52 /* MinSizeRel */,
+				11DDA2D03CCE4C919B2E2607 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2EB6E7F6BA481981C36CD0 /* Project object */;
+}
