@@ -53,6 +53,8 @@ void MeshDrawPicking::fillPickingBuffers()
         int i = 0;
         do
         {
+            
+            
             Vertex *v = he->head;
 
             pickingVertexB.push_back((GLfloat)v->p.x);
@@ -65,6 +67,7 @@ void MeshDrawPicking::fillPickingBuffers()
             pickingTriangleIndexBuffer.push_back((GLuint)(faceIndex * 3 + i));
             i++;
             he = he->next;
+            
         } while (he != f->he);
         faceIndex++;
     }

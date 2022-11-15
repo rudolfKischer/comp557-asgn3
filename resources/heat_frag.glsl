@@ -19,7 +19,16 @@ void main(void) {
 	vec3 l = normalize(lightCamSpacePosition - camSpacePosition);
 
 	// TODO: 4, 7, 11 Implement your GLSL per fragement lighting, heat colouring, and distance stripes here!
+    
+    //specular lighting
+    vec3 ks = vec3( 1.0, 1.0, 1.0 );
+    vec3 halfVector = normalize( l + v );
+    float specular = max(0, dot(n, halfVector) );
+    specular = pow(specular, materialShininess );
+    vec3 reflectedLight = ks * lightColor * specular;
+    
+    
 
 	// can use this to initially visualize the normal	
-    out_fragColor =  clamp( vec4( n.xyz * 0.5 + vec3( 0.5, 0.5,0.5 ), 0.8 + clamp(utv + phiv, 0, 0) ), 0, 1 );
+    out_fragColor =  clamp( vec4( n.xyz * 0.5 + vec3( 0.5, 0.5,0.5 ) + reflectedLight, 0.8 + clamp(utv + phiv, 0, 0) ), 0, 1 );
 }

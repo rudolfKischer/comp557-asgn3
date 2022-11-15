@@ -159,6 +159,7 @@ static void loadMesh(string filename)
 	heds->initHeatFlow();
 
 	newMeshLoaded = true;
+    
 
 	if (heds->faces->size() > 0) {
 		currentHE = heds->faces->front()->he;
@@ -330,7 +331,7 @@ static void init() {
 	progHeat->addAttribute("phi");
 	progHeat->setVerbose(false);
 
-	loadMesh(RES_DIR + soupFiles[4]);
+	loadMesh(RES_DIR + soupFiles[0]);
 
 	// mesh picking init
 	meshPicking.init(progPick);

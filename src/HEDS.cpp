@@ -7,60 +7,46 @@ HEDS::HEDS(shared_ptr<PolygonSoup> soup)
     faces->reserve(soup->faceList.size());
     vertices = soup->vertexList;
     for (auto &face : soup->faceList) {
+        
 		/**
 		 * TODO: 2 Build the half edge data structure from the polygon soup, triangulating non-triangular faces.
 		 */
-        
-//        std::vector<int> newFaces[1] = {face};
-        
 //        //loop over all faces created by triangulation
-//        for (int i=0; i<newFaces->size();i++) {
-//
-//            //loop over all vertices
-//            std::vector<int> thisFace = newFaces[i];
-//            int numFaceEdges = thisFace.size();
-//            for(int j=0; j<3; j++){
-//
-//                // get half edge vertices
-//                int v1 = thisFace[j];
-//                int v2 = thisFace[(j % numFaceEdges)];
-//
-//                createHalfEdge(soup, v1, v2);
-//            }
-//
-//        }
+
         
-        std::vector<int> thisFace = face;
-        int numFaceEdges = thisFace.size();
+//        triangulation using triangle fans
+        vector<vector<int>> newFaceList;
+        for(int i=1; i<(face.size()-1); i++ ){
+            vector<int> v{ face[0], face[i], face[i+1] };
+            newFaceList.push_back(v);
+        }
         
-        HalfEdge *faceHalfEdges[3];
-        
-        HalfEdge *h1 = createHalfEdge(soup, thisFace[0], thisFace[1]);
-        HalfEdge *h2 = createHalfEdge(soup, thisFace[1], thisFace[2]);
-        HalfEdge *h3 = createHalfEdge(soup, thisFace[2], thisFace[0]);
-        
-        h1->next = h2;
-        h2->next = h3;
-        h3->next = h1;
-        
-        Face halfEdgeFace = Face(h1);
-        
-        h1->leftFace = &halfEdgeFace;
-        h2->leftFace = &halfEdgeFace;
-        h3->leftFace = &halfEdgeFace;
-        
-        
-        
-//        for(int j=0; j<3; j++){
-//
-//            // get half edge vertices
-//            int v1 = thisFace[j];
-//            int v2 = thisFace[((j+1) % numFaceEdges)];
-//
-//            faceHalfEdges[j] = createHalfEdge(soup, v1, v2);
-//
-//            faceHalfEdges[j]->next = faceHalfEdges[((j+1) % numFaceEdges)];
-//        }
+
+        //loop over all faces made by triangulation
+        for (auto &f : newFaceList){
+            vector<int> thisFace = f;
+            
+            HalfEdge *h1 = createHalfEdge(soup, thisFace[0], thisFace[1]);
+            HalfEdge *h2 = createHalfEdge(soup, thisFace[1], thisFace[2]);
+            HalfEdge *h3 = createHalfEdge(soup, thisFace[2], thisFace[0]);
+
+            h1->head = vertices->at(thisFace[1]);
+            h2->head = vertices->at(thisFace[2]);
+            h3->head = vertices->at(thisFace[0]);
+
+            h1->next = h2;
+            h2->next = h3;
+            h3->next = h1;
+
+            Face *halfEdgeFace = new Face(h1);
+
+            h1->leftFace = halfEdgeFace;
+            h2->leftFace = halfEdgeFace;
+            h3->leftFace = halfEdgeFace;
+
+            faces->push_back(halfEdgeFace);
+
+        }
         
     }
     // set vertex normals
@@ -72,6 +58,28 @@ HEDS::HEDS(shared_ptr<PolygonSoup> soup)
         /**
          * TODO: 3 Compute vertex normals.
          */
+        
+        HalfEdge *currentHE = f->he;
+        
+        //get vertice of half edge
+        do{
+            HalfEdge *vertexHE = currentHE;
+            int faceCount =0;
+            glm::vec3 sum= glm::vec3(0.0f);
+            do{
+                sum += vertexHE->leftFace->n;
+                faceCount++;
+                vertexHE = vertexHE->next->twin;
+            }while(vertexHE != currentHE);
+            
+            currentHE->head->n = (1.0f/faceCount) * sum;
+            
+            
+            currentHE = currentHE->next;
+        }while(currentHE != f->he);
+        
+        
+        
     }
 }
 
@@ -123,6 +131,7 @@ void HEDS::solveHeatFlowStep(int GSSteps, double t)
             /**
              * TODO: 7 write inner loop code for the PGS heat solve.
              */
+             
         }
     }
 }
@@ -208,6 +217,8 @@ void HEDS::computeLaplacian()
         /**
          * TODO: 6 Compute the Laplacian and store as vertex weights, and cotan operator diagonal Lii and off diagonal Lij terms. 
          */
+        
+        
         
     }
 }
